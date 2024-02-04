@@ -12,7 +12,7 @@
       "matchStrings": [
         "repo: .*\\.com\\/(?<depName>.*).git\\ntag: (?<currentValue>.*)$"
       ],
-      "datasourceTemplate": "github-tags"
+      "datasourceTemplate": "github-releases"
     }
   ]
 }
