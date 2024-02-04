@@ -3,12 +3,12 @@
   "extends": [
     "config:recommended"
   ],
+  "fileMatch": [
+    "upstream.yaml"
+  ],
   "customManagers": [
     {
       "customType": "regex",
-      "fileMatch:": [
-        "upstream.yaml$"
-      ],
       "matchStrings": [
         "repo: .*\\.com\\/(?<depName>.*).git\\ntag: (?<currentValue>.*)$"
       ],
